@@ -1,59 +1,61 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+📌 Sistema de Gerenciamento de Chamados
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Sistema de gerenciamento de chamados desenvolvido em PHP utilizando o framework Laravel, com foco em organização, comunicação eficiente e boa experiência do usuário.
 
-## About Laravel
+🧠 Visão Geral
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A aplicação foi projetada para facilitar a comunicação entre usuários e administradores, permitindo o controle completo do ciclo de vida de um chamado — desde a criação até a atualização e acompanhamento.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+O sistema conta com uma estrutura bem definida, seguindo as boas práticas do Laravel, o que garante facilidade de manutenção e escalabilidade.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+⚙️ Funcionalidades
 
-## Learning Laravel
+Criação de chamados pelos usuários
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Atribuição de chamados por administradores
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Atualização do status dos chamados
 
-## Laravel Sponsors
+Troca de mensagens dentro dos tickets
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Envio de notificações relevantes aos usuários
 
-### Premium Partners
+Interface moderna e responsiva
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+🗂️ Estrutura do Projeto
 
-## Contributing
+O projeto utiliza a estrutura padrão do Laravel, incluindo:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Controllers – controle da lógica da aplicação
 
-## Code of Conduct
+Models – representação das entidades do sistema
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Migrations – versionamento e controle do banco de dados
 
-## Security Vulnerabilities
+Notifications – envio de alertas e mensagens aos usuários
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Essa organização permite uma gestão eficiente dos chamados e facilita futuras evolões do sistema.
 
-## License
+🎨 Interface e Experiência do Usuário
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+A interface foi desenvolvida com foco em usabilidade e responsividade, utilizando:
+
+Recursos nativos do Laravel
+
+Vite para otimização de assets e performance
+
+🛠️ Tecnologias Utilizadas
+
+PHP
+
+Laravel
+
+MySQL (ou outro banco compatível)
+
+Vite
+
+HTML, CSS e JavaScript
+
+🚀 Objetivo do Projeto
+
+Este projeto tem como objetivo servir como um sistema funcional de chamados, podendo ser utilizado como base para aplicações reais ou como projeto de aprendizado e evolução profissional.
